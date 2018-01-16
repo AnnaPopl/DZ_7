@@ -1,0 +1,42 @@
+.{
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+    padding: 2% 5%;
+    font: 17px Arial;
+}
+
+.flex-container{
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 45px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-element{
+    color: #fff;
+    padding: 15px;
+    margin: 5px;
+    background: #2296b2;
+    border-radius: 5px;
+    flex-grow: 1;
+    
+}
+
+.flex-element-1{
+    flex-basis: 100%;
+}
+
+.flex-element-4{
+    flex: 0 100%;
+}
+
+.flex-element-3{
+    flex-grow: 2;
+}
+    
